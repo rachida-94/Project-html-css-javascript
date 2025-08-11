@@ -4,4 +4,6 @@ In my country.js file, I created the page that shows specific country details. I
 For the main functionality, I used .then() to handle the asynchronous fetch calls and update the DOM with the country data. I also included .catch() blocks to handle errors gracefully and show fallback messages when something went wrong.
 
 When I had trouble getting the search input and Enter key to work, I resolved it by adding event listeners for both keydown and click. I used trim() to clean the input and redirected the user to the detail page using window.location.href, passing the country name as a query parameter. I also fixed a bug where the input’s id had a space, which was preventing the JavaScript from targeting it correctly.
-I also implemented a theme toggling feature to switch between light and dark modes. I added a toggle button and used JavaScript to apply a dark-theme class to the body element. I made sure the styles updated dynamically across all components, including cards, buttons, and text. To preserve the user’s preference, I still need to add localstorage for toggletheme and deploy my app
+I also implemented a theme toggling feature to switch between light and dark modes. I added a toggle button and used JavaScript to apply a dark-theme class to the body element. I made sure the styles updated dynamically across all components, including cards, buttons, and text. To preserve the user’s preference.
+
+App URL :https://countryyexplorer.netlify.app/
