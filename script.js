@@ -41,7 +41,7 @@ fetch(`https://restcountries.com/v3.1/all?fields=${fields}`)
   })
   .catch((err)=>{
     console.error(err)
-    ountriesContainer.innerHTML = `<p style="text-align:center;">Unable to load countries.
+    countriesContainer.innerHTML = `<p style="text-align:center;">Unable to load countries.
      Please try again later.</p>`
   })
 

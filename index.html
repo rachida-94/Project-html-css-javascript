@@ -17,31 +17,37 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
-    <script src="script.js" defer ></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="header-container">
       <div class="header-content">
         <h2 class="title"><a href="/">Where in the world?</a></h2>
-        <p class="theme-changer"><i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode</p>
+        <p class="theme-changer">
+          <i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode
+        </p>
       </div>
     </header>
     <main>
       <div class="search-filter-container">
         <div class="search-container">
           <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
-          <input type="text" id ="search-input" placeholder="Search for a country...">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search for a country..."
+          />
         </div>
         <select class="filter-by-region">
           <option hidden>Filter by Region</option>
           <option value="Africa">Africa</option>
-          <option value="America">America</option>
+          <option value="America">Americas</option>
           <option value="Asia">Asia</option>
           <option value="Europe">Europe</option>
           <option value="Oceania">Oceania</option>
         </select>
       </div>
-      
+      <div class="countries-container"></div>
     </main>
   </body>
 </html>
